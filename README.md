@@ -1,4 +1,4 @@
-klog
+Klog
 ====
 
 KLog - small, fast and easy-to-use data logger designed to be embedded in C ++ projects. 
@@ -26,7 +26,14 @@ int main(int argc, char** argv){
 }
 
 ```
+Config file sintaxis
+====================
 
+```cfg
+# comment string
+level = 255 # log level
+filename = klog_11.log # path to log file
+```
 
 
 
