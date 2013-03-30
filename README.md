@@ -31,6 +31,7 @@ Config file sintaxis
 
 ```cfg
 # comment string
+# config file name is a klog.cfg, it must be in the same directory as the application
 level = 255 # log level
 filename = klog_11.log # path to log file
 ```
